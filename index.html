@@ -24,7 +24,7 @@
 
         </article>
     </section id="objetivo">
-    <h1>objetivo w</h1>
+    <h1>objetivo</h1>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride
         Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's
@@ -55,18 +55,76 @@
         accompanied by English versions from the 1914 translation by H. Rackham.</p>
     <section>
 
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+           <table>
+            <thead>
+                <tr>
+                    <th>Habilidade</th>
+                    <th>Nível</th>
+                    <th>descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>80%</td>
+                    <td>Desenvolvimento de páginas web</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>70%</td>
+                    <td>Design responsivo</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>60%</td>
+                    <td>Desenvolvimento de páginas web</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>50%</td>
+                    <td>Desenvolvimento de scripts e automação</td>
+                </tr>
+            </tbody>
+           </table>
+
+
+        </section>
+
         <footer>
     </section>
     <section id="contato">
         <h2>Contato</h2>
         <p>entre em contato</p>
         <form action="">
-            <label for="name">Nome</label>
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto">
+                <option value="duvida">Dúvida</option>
+                <option value="elogio">Elogio</option>
+                <option value="reclamacao">Reclamação</option>
+            </select> <br>
+
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea> <br>
+
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome" required> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required> <br>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Digite seu telefone" required> <br>
+
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Deseja receber nossa newsletter?</label> <br>
+
+            <label for="date">Data:</label>
+            <input type="date" name="date" id="date" required> <br>
+
+            <input type="submit" value="Enviar">
         </form>
-        <address>
-            email: <a href="mailto:ccc233oviaaaaor-rp@hotmail.com">igdfgdfjtor-rpsdsa@hotmail.com</a>
-            Phone number: <a href="tel:+558888">sdfsadsa</a>
-        </address>
     </section>
     </footer>
 
